@@ -15,7 +15,7 @@ with open("README.md", "r") as fh:
 VERSION = "0.8.2"
 
 setup(
-    name="geniushubclient",
+    name="geniushubclient_enhanced",
     description="An aiohttp-based client for Genius Hub systems",
     keywords=["genius", "geniushub", "heatgenius"],
     author="Paul Manzotti",
