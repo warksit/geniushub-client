@@ -152,6 +152,13 @@ DEVICES_MODEL = [
         "sku": "da-wrt-c",
     },
     {
+        "assignableZoneTypeIds": [1, 3, 5],
+        "description": "Room Thermostat",
+        "deviceString": "wrt",
+        "hash": "0x0000019B02040004",
+        "sku": "gh-wrt-a",
+    },
+    {
         "assignableZoneTypeIds": [3, 5],
         "description": "Genius Valve",
         "deviceString": "wrv",
