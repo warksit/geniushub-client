@@ -15,7 +15,7 @@ with open("README.md", "r") as fh:
 VERSION = os.environ.get("GITHUB_REF_NAME", "0.8.0-dev")
 
 setup(
-    name="geniushub-client",
+    name="geniushubclient",
     description="An aiohttp-based client for Genius Hub systems",
     keywords=["genius", "geniushub", "heatgenius"],
     author="Paul Manzotti",
