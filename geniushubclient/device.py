@@ -255,3 +255,11 @@ class GeniusDevice(GeniusBase):
             return self.data["_diagnostics"].get("sku")
         except (KeyError, TypeError):
             return None
+
+    @property
+    def humidity(self) -> Optional[float]:
+        """Return the relative humidity percentage, if available."""
+        try:
+            return self.data["state"].get("humidity")
+        except (KeyError, TypeError):
+            return None

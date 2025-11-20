@@ -389,6 +389,12 @@ CHANNELS_MODEL = [
         "slug": "occupancyTrigger",
         "type": "Number",
     },
+    {
+        "id": "RELATIVE_HUMIDITY",
+        "description": "Relative Humidity",
+        "slug": "humidity",
+        "type": "Number",
+    },
 ]
 
 STATE_ATTRS = {c["id"]: c["slug"] for c in CHANNELS_MODEL}
